@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "vibrating",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "button",
+					"strict" : false
+				},
+				{
+					"name" : "IR_sen",
+					"strict" : false
+				},
+				{
+					"name" : "t_sen",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

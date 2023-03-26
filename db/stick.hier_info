@@ -1,0 +1,9 @@
+|stick
+t_sen => buzzer.IN0
+IR_sen => vibrating.IN0
+button => vibrating.IN1
+button => buzzer.IN1
+vibrating << vibrating.DB_MAX_OUTPUT_PORT_TYPE
+buzzer << buzzer.DB_MAX_OUTPUT_PORT_TYPE
+
+

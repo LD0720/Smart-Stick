@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+ENTITY stick IS
+PORT(t_sen, u_sen ,button : IN STD_LOGIC;
+	   vibrating ,buzzer : OUT STD_LOGIC);
+END stick;
+
+ARCHITECTURE main OF stick IS
+BEGIN
+Process (button,u_sen,t_sen) 
+Begin 
+Vibrating <= u_sen and button;
+Buzzer <= Not t_sen and button;
+End process;
+
+END main;
